@@ -1,0 +1,7 @@
+%section.panel
+  %header.panel-heading.text-center
+    = t('.greeting', :recipient => @resource.email, :default => "Welcome #{@resource.email}!")
+  %article.panel-body
+    %p= t('.instruction', :default => "You can confirm your account email through the link below:")
+    %p= link_to t('.action', :default => "Confirm my account"),                          |
+        confirmation_url(@resource, :confirmation_token => @token) |

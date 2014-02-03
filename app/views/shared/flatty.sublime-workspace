@@ -1,0 +1,772 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"discog",
+				"discography_form"
+			],
+			[
+				"HttpResponse",
+				"HttpResponseRedirect"
+			],
+			[
+				"cover",
+				"cover_band"
+			],
+			[
+				"sub_l",
+				"sub_location_forms"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/src/flatty/bs3/html/index.html",
+			"settings":
+			{
+				"buffer_size": 109376,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 67.0,
+		"selected_items":
+		[
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: remo",
+				"Package Control: Remove Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 683.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/jaslakson/Library/Application Support/Sublime Text 3/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
+		"/src/groupthink/app/assets/stylesheets/application.css.scss",
+		"/src/groupthink/app/views/layouts/application.html.haml",
+		"/src/groupthink/config/application.rb",
+		"/Users/jaslakson/Documents/gems.txt",
+		"/src/groupthink/app/views/home/index.html.haml",
+		"/src/groupthink/config/locales/devise.en.yml",
+		"/src/groupthink/Gemfile.lock",
+		"/src/groupthink/config/initializers/filter_parameter_logging.rb",
+		"/src/groupthink/app/views/devise/shared/_links.haml",
+		"/src/groupthink/app/views/home/index.html.erb",
+		"/src/groupthink/app/views/layouts/application.html.erb",
+		"/src/groupthink/config/initializers/haml.rb",
+		"/src/groupthink/log/development.log",
+		"/src/groupthink/db/development.sqlite3",
+		"/src/groupthink/Gemfile",
+		"/src/groupthink/Rakefile",
+		"/src/replatform/napa/common/serializers.py",
+		"/src/replatform/napa/base/serializers.py",
+		"/src/replatform/napa/activity/services.py",
+		"/src/replatform/napa/static/screen-e1a9e6135bb78f77989f690b31110cc291a6b71b.css",
+		"/src/replatform/env/bin/s3put",
+		"/src/replatform/.sass-cache/de341c1fe3385f51d2d868e4ca6635cdfea77704/_manage.scssc",
+		"/src/replatform/.sass-cache/d61ddcf5ceabd1a9af87eb810bb5c21f75424d0c/_manage.scssc",
+		"/src/replatform/napa/static/scss/common/_mixins.scss",
+		"/src/replatform/_generated_media_names.py",
+		"/src/replatform/napa/static/scss/common/_carousel.scss",
+		"/src/replatform/napa/static/scss/bootstrap/_carousel.scss",
+		"/src/replatform/.sass-cache/52c7d5ec75039179576242f7ec5bec0a8b97a9e0/_carousel.scssc",
+		"/src/replatform/.sass-cache/5147d1d03c612c0676182980209ea64f7ae77663/_carousel.scssc",
+		"/src/replatform/.sass-cache/3a04f5703d9f7222e438ba66f48cd8e293580c13/_carousel.scssc",
+		"/src/replatform/.sass-cache/22b275a6767e1716d611dba48ec43c598a6cc59f/_carousel.scssc",
+		"/src/replatform/config.rb",
+		"/src/replatform/napa/hub/views/calendar.py",
+		"/src/replatform/.sass-cache/22b275a6767e1716d611dba48ec43c598a6cc59f/_component-animations.scssc",
+		"/src/replatform/napa/static/js/views/band/manage_band_info.js",
+		"/src/replatform/napa/common/static/scss/bootstrap/_carousel.scss",
+		"/src/replatform/napa/hub/fixtures/base_cities_light.json",
+		"/src/replatform/napa/static/hub.views.manage_user_bands-50a1f6d743074e02a71a4b29e8a4b5174e270f21.js",
+		"/src/replatform/napa/reporting/hubspot/hubspot_update.py",
+		"/src/replatform/log4mongo/handlers.py",
+		"/src/replatform/napa/hub/managers.py",
+		"/src/replatform/napa/hub/templates/base_manage.html",
+		"/src/replatform/napa/static/hub.apps.napa_payment.views.subscription_manage-5b52b59bf4129075dd8a2ca64e927c16e17af604.js",
+		"/src/replatform/napa/static/hub.views.band.manage_band_members-50a1f6d743074e02a71a4b29e8a4b5174e270f21.js",
+		"/src/replatform/napa/hub/templates/contest/details_ajax.html",
+		"/src/replatform/napa/hub/templates/contest/details.html",
+		"/src/replatform/napa/static/hub.views.contest.opportunity_edit-1ea4db49c50a42a764b9555f96f783ee7f78bc22.js",
+		"/src/replatform/napa/hub/views/contest.py",
+		"/src/replatform/napa/hub/templates/manage/promoter/inbox/band_entry_common_actions.html",
+		"/src/replatform/napa/common/fixtures/test_common_promoter.json",
+		"/src/replatform/napa/common/context_processors/common.py",
+		"/src/replatform/napa/hub/templates/common/contest_menu.html",
+		"/src/replatform/build.cmd",
+		"/src/replatform/napa/hub/templates/base_ajax.html",
+		"/src/replatform/napa/common/services/__init__.py",
+		"/src/replatform/napa/common/services/social.py",
+		"/src/replatform/napa/common/services/session.py",
+		"/src/replatform/napa/common/tests/services.py",
+		"/src/replatform/napa/common/fixtures/test_common_user.json",
+		"/src/replatform/napa/common/fixtures/test_common_site.json",
+		"/src/replatform/napa/common/tests/models.py",
+		"/src/replatform/napa/hub/templates/manage/band/set_list.html",
+		"/src/replatform/napa/hub/templates/manage/band/rider.html",
+		"/src/replatform/napa/hub/templates/manage/band/press_reviews.html",
+		"/src/replatform/napa/hub/locale/en/LC_MESSAGES/django.po",
+		"/src/replatform/napa/common/locale/en/LC_MESSAGES/django.po",
+		"/src/replatform/napa/hub/static/js/views/band/manage_band.js",
+		"/src/replatform/napa/static/js/views/band/manage_band.js",
+		"/src/replatform/manage.py",
+		"/src/replatform/env/lib/python2.7/encodings/mac_arabic.py",
+		"/src/replatform/requirements.txt",
+		"/src/replatform/napa/hub/templates/manage/band/discography_lyrics.html",
+		"/src/replatform/env/lib/python2.7/site-packages/django/forms/formsets.py",
+		"/src/replatform/napa/hub/views/search.py",
+		"/src/replatform/napa/static/hub.views.internal.search-f68783a2521b54a7747df8b8b4ac855b0f0d732a.js",
+		"/src/replatform/napa/static/hub.views.search.opportunity-d8ed0c8bddafef062ca4f2bbe39e4ac8f2847591.js",
+		"/src/replatform/napa/static/hub.views.contest.opportunity_show-6407232a579ef937a8fa8ab460c68c37bec28531.js",
+		"/src/replatform/napa/static/hub.views.band.audio-6410fb720e175e2de78e1bd0e55d211399bdde17.js",
+		"/src/replatform/napa/static/hub.views.promoter.manage_index-9cf0a0f07e2ebd976212f2b6f87c6ffad03d1e5a.js",
+		"/src/replatform/napa/static/hub.views.band.manage_band_videos-1c1c383b8b4b4247649d2bf3056dd42aec1f5e74.js",
+		"/src/replatform/napa/hub/views/__init__.py",
+		"/src/replatform/napa/activity/views.py",
+		"/src/replatform/logs/video_encode.log",
+		"/src/replatform/napa/common/templates/common/video_instance.html",
+		"/src/replatform/napa/static/scss/common/_icons.scss",
+		"/src/replatform/.sass-cache/52c7d5ec75039179576242f7ec5bec0a8b97a9e0/_icons.scssc",
+		"/src/replatform/.sass-cache/3a04f5703d9f7222e438ba66f48cd8e293580c13/_icons.scssc",
+		"/src/replatform/.sass-cache/23679f0966f8858aea574b2b067e29a390cf84c9/_iconmoon.scssc",
+		"/src/replatform/napa/common/static/scss/fonts/_iconmoon.scss",
+		"/src/replatform/napa/static/scss/common/_base.scss",
+		"/src/replatform/.sass-cache/fb04bf7fab185b2f8c9a7605fce933a514c555cb/_base.scssc",
+		"/src/replatform/.sass-cache/52c7d5ec75039179576242f7ec5bec0a8b97a9e0/_base.scssc",
+		"/src/replatform/.sass-cache/3a04f5703d9f7222e438ba66f48cd8e293580c13/_base.scssc",
+		"/src/replatform/.sass-cache/23f43ce4804fbdbf5ba5c431f61f52b95b65a470/_base.scssc",
+		"/src/replatform/.sass-cache/0269500a9e18d14eabc1c39768eec86f063e5c7a/_base.scssc",
+		"/src/replatform/napa/common/static/scss/compass/utilities/sprites/_base.scss",
+		"/src/replatform/napa/static/scss/compass/utilities/sprites/_base.scss",
+		"/src/replatform/napa/common/static/scss/common/_base.scss",
+		"/src/replatform/napa/common/templates/base.html",
+		"/src/replatform/napa/hub/fixtures/base_site.json",
+		"/src/replatform/napa/hub/templates/manage/common/menu.html",
+		"/src/replatform/napa/static/common.views.napa_login-fb1b50b638493e1262e630789c5475a32c7f7590.js",
+		"/src/replatform/env/lib/python2.7/site-packages/django_extensions/tests/management_command.py",
+		"/src/replatform/napa/hub/management/commands/opportunity_review_deadline_update.py",
+		"/src/replatform/env/lib/python2.7/site-packages/cms/tests/management.py",
+		"/src/replatform/napa/static/hub.views.band.manage_band_audio-1c1c383b8b4b4247649d2bf3056dd42aec1f5e74.js",
+		"/src/replatform/napa/static/hub.views.band.manage_band-c31945b30a0a788540ec5f013dd60f3a289c9bb8.js",
+		"/src/replatform/napa/static/hub.views.band.registration.basic_band_info_and_profile-50a1f6d743074e02a71a4b29e8a4b5174e270f21.js",
+		"/src/replatform/napa/static/hub.views.band.manage_band_info-74dc971e3d74e30e98deeb2e9ece6fe7e269b979.js",
+		"/src/replatform/napa/static/hub.views.band.manage_band_images-1c1c383b8b4b4247649d2bf3056dd42aec1f5e74.js",
+		"/src/replatform/env/lib/python2.7/site-packages/phonenumbers/re_util.py",
+		"/src/replatform/napa/static/scss/fonts/_iconmoon.scss",
+		"/src/replatform/.sass-cache/90fa9e3df23e06b879a577953451078433fe992d/_iconmoon.scssc",
+		"/src/replatform/napa/static/fonts/icomoon.svg",
+		"/src/replatform/napa/apps/icomoon/IcoMoon Session.json",
+		"/src/replatform/napa/hub/templates/audio/interface_collapsed.html",
+		"/src/replatform/.sass-cache/bdb7a0c14572e586622ba952cc597d085659ee3c/introjs.scssc",
+		"/src/replatform/napa/common/migrations/0067_auto__del_field_entry_starred.py",
+		"/src/replatform/env/lib/python2.7/site-packages/cms/models/permissionmodels.py",
+		"/src/replatform/napa/common/models/__init__.py",
+		"/src/replatform/napa/apps/cmsplugin_raw_html/cms_plugins.py",
+		"/src/replatform/env/lib/python2.7/site-packages/Crypto/Cipher/PKCS1_OAEP.py",
+		"/src/replatform/env/lib/python2.7/site-packages/guardian/templates/admin/guardian/contrib/grappelli/obj_perms_manage.html",
+		"/src/replatform/napa/common/migrations/0039_promoter_migrate_schema.py",
+		"/src/replatform/napa/static/js/lib/forms.js",
+		"/src/replatform/napa/hub/templates/manage/calendar/venue_new_controls.html",
+		"/src/replatform/napa/hub/templates/manage/calendar/slot_new.html"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/src/replatform/napa",
+			"/src/replatform/",
+			"/src/replatform/napa/",
+			"/src/replatform/napa/common/static",
+			"/src/replatform/napa/",
+			"/src/replatform/napa/hub/templates",
+			"/src/replatform/napa",
+			"/src/replatform"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"tls",
+			"pitch",
+			"rest",
+			"h2",
+			"border",
+			"carousel-inner",
+			"url ",
+			"thumbnail",
+			"fuzzy",
+			"gigs_submitted",
+			"find-gigs",
+			"opportunity",
+			"objects.status",
+			"get_opportunity_inbox",
+			"select_all_related",
+			"BandOpportunity.objects",
+			".published",
+			"published_for_site",
+			".published",
+			".open",
+			".open.",
+			".open",
+			".published",
+			".site(",
+			"BandOpportunity",
+			"find_gigs",
+			"manage_band_calendar_index",
+			"profile",
+			"show.html",
+			"manage_band_press",
+			"manage_band_press_url",
+			"fuzzy",
+			"upload",
+			"Info &",
+			"form",
+			"INITIAL_FORMS",
+			"TOTAL_FORM_COUNT",
+			"def lead",
+			"search_users",
+			"PressReviewFormset",
+			"press_review_forms",
+			"management",
+			"press_",
+			"press_review_forms",
+			"press_",
+			"manage.menu.manage_press",
+			"manage.menu.manage_[ress",
+			"fuzzy",
+			"band_discography_form",
+			"LyricsFormset",
+			"LyricsForm",
+			"discog",
+			"band_info_form",
+			"press",
+			"Manage Dates",
+			"fuzzy",
+			"manage_discography_lyrics",
+			"manage_band_discography_lyrics_url",
+			"band_li",
+			"calendar",
+			"set_list",
+			"manage_band_calendar_slot",
+			"calendar_slot_new",
+			"fuzzy",
+			"anage.menu.performance_info",
+			"fuzzy",
+			"manage_stage_plots_url",
+			"is_valid",
+			"set_list",
+			"BandMiscInfoForm",
+			"img/play_black.png",
+			"rider",
+			"setlist",
+			"<<<<<<< HEAD",
+			"no matches found",
+			"fuzzy",
+			"opportunities.add.promoter_group_info.new_promoter_group.label",
+			"add this company",
+			"fuzzy",
+			"createNewItemSuggestion",
+			"formatExtraOption",
+			"newItemTemplate",
+			"promoter-group-no-matches",
+			"opportunities.add.promoter_group_info.new_promoter_group.label",
+			"add company",
+			"napa-select2-image",
+			"select2-expanded",
+			"media-heading",
+			"extra",
+			"places",
+			"result",
+			"#geo-result",
+			"geo-results-template",
+			"geo-result",
+			"<br>",
+			"selectExtrasOption",
+			"selectNoMatchesOption",
+			"selectExtraOption",
+			"select2-no",
+			"select2-result-item",
+			"extra",
+			"napa-select2-info",
+			"icon-plu",
+			"new-location-option",
+			"geo-results",
+			"a.active",
+			"select2-active",
+			"formatSearching",
+			"searching",
+			"fuzzy",
+			"venue-no-matches",
+			"selectNoMatchesOption",
+			"selectAddVenueOption",
+			"formatNoMatches",
+			"Add the venue Now",
+			"matchingProperty",
+			"selectFormatResult",
+			"formatItemResult",
+			"escapeMarkup",
+			"formatItemResult",
+			"escapeMarkup",
+			"matchingProperty",
+			"selectItemTemplate",
+			"selectFormatResult",
+			"formatItemResult",
+			"selectFormatResult",
+			"selectItemTemplate",
+			"dropdownTemplateSelector"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"discography_form",
+			"band_discography_form",
+			" "
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/src/flatty/bs3/html/index.html",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 109376,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								301,
+								301
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"project": "flatty.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"appjs",
+				"app/assets/javascripts/application.js"
+			],
+			[
+				"application.haml",
+				"app/views/layouts/application.html.haml"
+			],
+			[
+				"locale",
+				"config/locales/en.yml"
+			],
+			[
+				"application",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"develop",
+				"config/environments/development.rb"
+			],
+			[
+				"gemfi",
+				"Gemfile"
+			],
+			[
+				"routes",
+				"config/routes.rb"
+			],
+			[
+				"serializer",
+				"napa/common/serializers.py"
+			],
+			[
+				"_manage.scss",
+				"napa/static/scss/app/_manage.scss"
+			],
+			[
+				"_carousel.scss",
+				"napa/static/scss/bootstrap/_carousel.scss"
+			],
+			[
+				"_carousel",
+				"napa/static/scss/common/_carousel.scss"
+			],
+			[
+				"hublocale",
+				"napa/hub/locale/en/LC_MESSAGES/django.po"
+			],
+			[
+				"hubmanagers",
+				"napa/hub/managers.py"
+			],
+			[
+				"contest.py",
+				"napa/hub/views/contest.py"
+			],
+			[
+				"contestdetails",
+				"napa/hub/templates/contest/details_content.html"
+			],
+			[
+				"commonmang",
+				"napa/common/managers.py"
+			],
+			[
+				"commonservices",
+				"napa/common/services/__init__.py"
+			],
+			[
+				"commonmodelsconstt",
+				"napa/common/models/constants.py"
+			],
+			[
+				"manage_band",
+				"napa/static/js/views/band/manage_band_info.js"
+			],
+			[
+				"hubviewssearch",
+				"napa/hub/views/search.py"
+			],
+			[
+				"hubviewsinit",
+				"napa/hub/views/__init__.py"
+			],
+			[
+				"_icons.scss",
+				"napa/static/scss/common/_icons.scss"
+			],
+			[
+				"_base.scss",
+				"napa/static/scss/common/_base.scss"
+			],
+			[
+				"base.scss",
+				"napa/common/static/scss/compass/utilities/sprites/_base.scss"
+			],
+			[
+				"commonlocale",
+				"napa/common/locale/en/LC_MESSAGES/django.po"
+			],
+			[
+				"managemenu",
+				"napa/hub/templates/manage/common/menu.html"
+			],
+			[
+				"hubviewsbandinit",
+				"napa/hub/views/band/__init__.py"
+			],
+			[
+				"hubforms",
+				"napa/hub/forms.py"
+			],
+			[
+				"require",
+				"requirements.txt"
+			],
+			[
+				"requirements",
+				"requirements.txt"
+			],
+			[
+				"icomoon.scss",
+				"napa/common/static/scss/fonts/_iconmoon.scss"
+			],
+			[
+				"hubmodels",
+				"napa/hub/models.py"
+			],
+			[
+				"huburls",
+				"napa/hub/urls.py"
+			],
+			[
+				"commonmodels",
+				"napa/common/models/__init__.py"
+			],
+			[
+				"forms.py",
+				"napa/hub/forms.py"
+			],
+			[
+				"gigpromoter",
+				"napa/hub/templates/contest/forms/gig_promoter_group_fieldset.html"
+			],
+			[
+				"oppapply",
+				"napa/hub/static/js/views/contest/opportunity_apply.js"
+			],
+			[
+				"geocomplete",
+				"napa/static/js/lib/geocomplete.js"
+			],
+			[
+				"geocomplete.scss",
+				"napa/common/static/scss/common/_geocomplete.scss"
+			],
+			[
+				"managecalendarslotnew",
+				"napa/hub/static/js/views/calendar/manage_calendar_slot_new.js"
+			],
+			[
+				"geocomplete.js",
+				"napa/common/static/js/lib/geocomplete.js"
+			],
+			[
+				"forms.js",
+				"napa/static/js/lib/forms.js"
+			],
+			[
+				"_variables.scss",
+				"napa/common/static/scss/common/_variables.scss"
+			],
+			[
+				"select2.js",
+				"napa/common/static/js/vendor/select2.js"
+			],
+			[
+				"app.js",
+				"napa/static/js/views/app.js"
+			],
+			[
+				"_select",
+				"napa/common/static/scss/common/_select2.scss"
+			],
+			[
+				"_mixins",
+				"napa/static/scss/common/_mixins.scss"
+			],
+			[
+				"_forms.scss",
+				"napa/static/scss/common/_forms.scss"
+			],
+			[
+				"entryaudio",
+				"napa/hub/templates/contest/apply/entry_audio_form.html"
+			],
+			[
+				"entrystageplot",
+				"napa/hub/templates/contest/apply/entry_stage_plot_form.html"
+			],
+			[
+				"entrystage",
+				"napa/hub/templates/contest/apply/entry_stage_plot_form.html"
+			],
+			[
+				"servicesentry",
+				"napa/hub/services/entry.py"
+			],
+			[
+				"servicesoppor",
+				"napa/common/services/opportunity.py"
+			],
+			[
+				"utilsaudio",
+				"napa/media/utils/audio.py"
+			],
+			[
+				"opportunityapply",
+				"napa/hub/static/js/views/contest/opportunity_apply.js"
+			],
+			[
+				"lyrics",
+				"napa/hub/templates/contest/apply/entry_lyrics_form.html"
+			],
+			[
+				"loginlogin",
+				"napa/common/templates/login/login.html"
+			],
+			[
+				"commonviews",
+				"napa/common/views.py"
+			],
+			[
+				"login.html",
+				"napa/common/templates/login/login.html"
+			],
+			[
+				"commonmodel",
+				"napa/common/models/__init__.py"
+			],
+			[
+				"apply",
+				"napa/hub/templates/contest/apply/apply.html"
+			],
+			[
+				"bandentryapp",
+				"napa/hub/templates/manage/band/entry_application.html"
+			],
+			[
+				"hubviewbandinit",
+				"napa/hub/views/band/__init__.py"
+			],
+			[
+				"mediautilsaudio",
+				"napa/media/utils/audio.py"
+			],
+			[
+				"hubregis",
+				"napa/hub/views/band/registration.py"
+			],
+			[
+				"promoterregistration",
+				"napa/hub/views/promoter/registration.py"
+			],
+			[
+				"registration",
+				"napa/hub/views/band/registration.py"
+			],
+			[
+				"calendar.py",
+				"napa/hub/views/calendar.py"
+			],
+			[
+				"parameters",
+				"napa/config/parameters_local.py"
+			],
+			[
+				"citieslightreq",
+				"env/lib/python2.7/site-packages/django_cities_light-2.1.8-py2.7.egg-info/requires.txt"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 244.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

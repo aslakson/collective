@@ -1,0 +1,40 @@
+%aside#nav.aside.bg-dark.dk
+  %section.vbox
+    %section.scrollable
+      .slim-scroll{"data-disable-fade-out" => "true", "data-distance" => "0", "data-height" => "auto", "data-size" => "5px"}
+        %nav.nav-primary.hidden-xs{"data-ride" => "collapse"}
+          %ul.nav
+            %li
+              %a{href: "index.html"}
+                %i.fa.fa-eye
+                %span Discover
+            - if can? :manage, User
+              %li
+                =link_to users_path do
+                  %i.fa.fa-eye
+                  = t('.users', :default=>'Users') 
+            - if can? :manage, Group
+              %li
+                =link_to groups_path do
+                  %i.fa.fa-eye
+                  = t('.groups', :default=>'Groups') 
+            %li
+              %a.dropdown-toggle{href: "#"}
+                %span.pull-right.auto
+                  %i.fa.fa-angle-down.text
+                  %i.fa.fa-angle-up.text-active
+                %i.fa.fa-flask
+                %span UI kit
+              %ul.nav.none.dker
+                %li
+                  %a{href: "buttons.html"} Buttons
+                %li
+                  %a{href: "icons.html"}
+                    %b.badge.pull-right> 302
+                    Icons
+                %li
+                  %a{href: "grid.html"} Grid
+                %li
+                  %a{href: "widgets.html"}
+                    %b.badge.bg-primary.pull-right> 8
+                    Widgets

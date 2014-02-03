@@ -1,0 +1,11 @@
+%section.panel
+  %header.panel-heading.text-center
+    = t('.change_your_password', :default => 'Change your password')
+  %article.panel-body
+    = bootstrap_form_for(resource, :as => resource_name, :url => password_path(resource_name), :html => { :method => :put }) do |f|
+      = devise_error_messages!
+      = f.hidden_field :reset_password_token
+      = f.password_field :password
+      = f.password_field :password_confirmation, label: t('.confirm_new_password', :default => 'Confirm new password')
+      %div= f.submit t('.change_my_password', :default => 'Change my password')
+    = render "devise/shared/links"

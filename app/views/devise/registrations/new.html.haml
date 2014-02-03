@@ -1,0 +1,14 @@
+%section.panel
+  %header.panel-heading.text-center
+    = t('.sign_up', :default => "Sign up")
+  %article.panel-body
+    = bootstrap_form_for(resource, :as => resource_name, :url => registration_path(resource_name)) do |f|
+      = devise_error_messages!
+      %div
+        = f.text_field :first_name
+        = f.text_field :last_name
+        = f.email_field :email
+        = f.password_field :password
+        = f.password_field :password_confirmation
+      %div= f.submit t('.sign_up', :default => "Sign up")
+    = render "devise/shared/links"

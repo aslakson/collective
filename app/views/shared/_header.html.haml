@@ -1,0 +1,23 @@
+%header.header.bg-black.navbar.navbar-inverse.pull-in
+  .navbar-header.nav-bar.aside.dk
+    %a.btn.btn-link.visible-xs{"data-target" => ".nav-primary", "data-toggle" => "class:show"}
+      %i.fa.fa-bars
+    %a.nav-brand{"data-toggle" => "fullscreen", href: "#"}
+      Collective
+    %a.btn.btn-link.visible-xs{"data-target" => ".navbar-collapse", "data-toggle" => "collapse"}
+      %i.fa.fa-comment-o
+  .collapse.navbar-collapse
+    = render 'shared/top_nav'
+    %form.navbar-form.navbar-left.m-t-sm{role: "search"}
+      .form-group
+        .input-group.input-s
+          %input.form-control.input-sm.no-border.dk.text-white{placeholder: "Search", type: "text"}/
+          %span.input-group-btn
+            %button.btn.btn-sm.btn-primary.btn-icon{type: "submit"}
+              %i.fa.fa-search
+    %ul.nav.navbar-nav.navbar-right
+      %li.hidden-xs
+        = render 'shared/notifications'
+      %li.dropdown
+        = render 'shared/user_nav'
+        

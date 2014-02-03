@@ -1,0 +1,21 @@
+!!!
+%html
+  %head
+    %title Collective
+    %meta{:charset => "utf-8"}
+    %meta{"http-equiv" => "X-UA-Compatible", :content => "IE=edge,chrome=1"}
+    %meta{:name => "viewport", :content => "width=device-width, initial-scale=1, maximum-scale=1"}
+    = yield :head
+    = stylesheet_link_tag :application, media: "all", "data-turbolinks-track" => true
+    = javascript_include_tag :application, "data-turbolinks-track" => true
+    = csrf_meta_tags
+    = javascript_tag "var AUTH_TOKEN = #{form_authenticity_token.inspect};" if protect_against_forgery?
+  %body{:class => params[:controller]}  
+    %section.m-t-lg.wrapper-md.animated.fadeInUp
+      %a.nav-brand{href: "index.html"}= t('.collective', :default=> 'Collective')
+      .row.m-n
+        .col-sm-6.col-sm-offset-3.col-md-4.col-md-offset-4.m-t-lg
+          - flash.each do |name, msg|
+            = content_tag :div, msg, :id => "flash_\#{name}", :class => "alert alert-info" if msg.is_a?(String)   
+          = yield
+    = yield :scripts   

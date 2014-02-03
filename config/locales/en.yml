@@ -1,0 +1,10 @@
+---
+en:
+  home:
+    index:
+      title: Welcome to Collective!
+      text: Let's do something great together
+  users:
+    sign_in:
+      title: 'Sign In'
+      sign_in: 'Sign in'

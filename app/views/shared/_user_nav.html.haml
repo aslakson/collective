@@ -1,0 +1,27 @@
+- if user_signed_in?
+  %a.dropdown-toggle.aside-sm.dker{"data-toggle" => "dropdown", href: "#"}
+    %span.thumb-sm.avatar.pull-left.m-t-n-xs.m-r-xs
+    = current_user.first_name
+    %b.caret
+  %ul.dropdown-menu.animated.fadeInLeft
+    %li
+      = link_to('Edit account', edit_user_registration_path)
+    %li
+      %a{href: "profile.html"} Profile
+    %li
+      %a{href: "#"}
+        %span.badge.bg-danger.pull-right 3
+        Notifications
+    %li
+      %a{href: "docs.html"} Help
+    %li
+      = link_to('Sign out', destroy_user_session_path, :method=>'delete')         
+- else
+  %a.dropdown-toggle.aside-sm.dker{"data-toggle" => "dropdown", href: "#"}
+    Get Started
+    %b.caret
+  %ul.dropdown-menu.animated.fadeInLeft
+    %li
+      = link_to 'Login', new_session_path('user')
+    %li
+      = link_to 'Create account', new_user_registration_path

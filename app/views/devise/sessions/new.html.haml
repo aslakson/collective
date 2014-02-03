@@ -1,0 +1,6 @@
+%section.panel
+  %header.panel-heading.text-center
+    = t('.sign_in', :default => "Sign in")
+  %article.panel-body
+    = render 'devise/sessions/form'
+    = render "devise/shared/links"
